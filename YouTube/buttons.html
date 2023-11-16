@@ -1,0 +1,63 @@
+<!-- In this file we are creating the buttons to look like in the below website
+https://supersimple.dev/exercises/buttons -->
+
+<style>
+  .subscribe-button {
+    /* changes the backgound color of teh whole button */
+    background-color: rgb(200, 0, 0);
+    /* color decides the color of the text */
+    color: white;
+    border: none;
+    height: 35px;
+    width: 100px;
+    border-radius: 2px;
+    /* Setting cursor to pointer shows us the hand like image pointing the button or what ever it is on hovering */
+    cursor: pointer;
+    margin-right: 8px;
+  }
+
+  .join-button {
+    background-color: white;
+    border-color: rgb(61, 128, 209);
+    /*
+     With out the border style we will notice a weird border color,
+     though we set a color to the border top and left sides of the border gets decorted with the color we set.
+     However, right and botton gets different color. To overcome this  border-stype helps us.
+    */
+    border-style: solid;
+    /*
+     Border looks thicker without the border width.
+    */
+    border-width: 1px;
+    border-radius: 2px;
+    color: rgb(61, 128, 209);
+    height: 35px;
+    width: 55px;
+    cursor: pointer;
+  }
+
+  .tweet-button {
+    margin-left: 8px;
+    height: 35px;
+    width: 70px;
+    background-color: rgb(61, 128, 209);
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+</style>
+
+<!-- The class attribute basically labels the HTML element -->
+<button class="subscribe-button">
+  SUBSCRIBE
+</button>
+
+<button class="join-button">
+  JOIN
+</button>
+
+<button class="tweet-button">
+  Tweet
+</button>
