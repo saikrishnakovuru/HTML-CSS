@@ -90,6 +90,21 @@ https://supersimple.dev/exercises/buttons -->
     border-radius: 20px;
     font-weight: bold;
     cursor: pointer;
+
+    transition: box-shadow 0.15s;
+  }
+
+  .tweet-button:hover {
+    /* box-shadow helps us to add the shadow to the object
+      Tt has 4 values, 1-> horizontal position, 2->Vertical position, 3->Blur, 4-> color.
+      
+      As part of color we use rgba where a is the opacity.
+    */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .tweet-button:active {
+    opacity: 0.5;
   }
 </style>
 
