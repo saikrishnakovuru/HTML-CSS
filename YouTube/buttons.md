@@ -20,3 +20,15 @@ pseudo classes gets applied on hovering(hover) or on clicking(active).
 ```html
 .subscribe-button:active { opacity: 0.8; }
 ```
+
+## transition
+
+Transition enables the smooth transitions which includes many actions one such thing is fading out the button by applying opacity.
+
+Let's discuss an `use case` for example we applied opacity for a button on hovering, as soon as we hover the button the opacity immediately reflects, To make thet `smoother` transition property helps us in achieving that.
+
+transition accepts two parameters one is what needs to te smoothened and the and the another one is how long the smooth transition should happen.
+
+```html
+transition: opacity 0.15s;
+```
