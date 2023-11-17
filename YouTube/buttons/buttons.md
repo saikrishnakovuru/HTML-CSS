@@ -58,8 +58,8 @@ As part of color we use rgba where a is the opacity.
 
 ## CSS Box model instead of hight and width
 
-In real world the requirements may change ant any point of time, if we give a fixed size(using hight and width) to a button anticipating it has the small name would not be suitable when the name of the button gets changed.
-
-Always we shoulud go for box-model i.e using padding, border and margin.
+In real world the requirements may change ant any point of time, if we give a fixed size(using hight and width) to a button anticipating it has the small name would not be suitable when the name of the button gets changed. If the name is bigger than the width we gave if overflows like in the below image.
 
 ![Alt text](image.png)
+
+Always we shoulud go for box-model i.e using padding, border and margin.
