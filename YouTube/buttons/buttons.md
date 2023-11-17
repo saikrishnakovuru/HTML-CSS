@@ -9,6 +9,12 @@ Few styles for eye wash!
 `opacity` --> Used to fadeout a component, usually used to fadeout on hover(on  
  hovering the buttons or links) and while the button is active(on clicking hte button).
 
+`border-width` --> Border looks thicker without the border width.
+
+## Border style
+
+With out the border style we will notice a weird border color,though we set a color to the border top and left sides of the border gets decorted with the color we set. However, right and botton gets different color. To overcome this border-stype helps us.
+
 ## pseudo classes
 
 pseudo classes gets applied on hovering(hover) or on clicking(active).
@@ -49,3 +55,11 @@ As part of color we use rgba where a is the opacity.
 ```html
 .tweet-button:hover { box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
 ```
+
+## CSS Box model instead of hight and width
+
+In real world the requirements may change ant any point of time, if we give a fixed size(using hight and width) to a button anticipating it has the small name would not be suitable when the name of the button gets changed.
+
+Always we shoulud go for box-model i.e using padding, border and margin.
+
+![Alt text](image.png)
