@@ -32,3 +32,20 @@ transition accepts two parameters one is what needs to te smoothened and the and
 ```html
 transition: opacity 0.15s;
 ```
+
+## box-shadow
+
+We added shadow to the Tweet button on hovering.
+
+box-shadow helps us to add the shadow to the object
+it has 4 values.
+1-> horizontal position
+2->Vertical position
+3->Blur
+4-> color.
+
+As part of color we use rgba where a is the opacity.
+
+```html
+.tweet-button:hover { box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
+```
