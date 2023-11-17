@@ -79,3 +79,20 @@ Buttons borders are litte dealighned as we added paddding to JOIN button but the
 To override this behaviour and want to have everything on top we need a css property called `vertical-align: top`
 
 ![Alt text](image-1.png)
+
+## In buttons-exercise
+
+> importance of `vertical-align: top`
+
+I added two buttons stretch and 3dClick, gaven the below styles for 3dClick
+
+```java
+     .three-dimention-button:active {
+        margin-top: 3px;
+        margin-left: 3px;
+    }
+```
+
+With the above styling the button moves a little on clicking. Action works perfectly well however, the stretch button also started acting weird by moving away on cliking the 3dClick button.
+
+I got stricked by the point that web pages are text aligned and I added `vertical-align: top;` which resolved the problem.
