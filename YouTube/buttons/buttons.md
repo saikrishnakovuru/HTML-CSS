@@ -63,3 +63,19 @@ In real world the requirements may change ant any point of time, if we give a fi
 ![Alt text](image.png)
 
 Always we shoulud go for box-model i.e using padding, border and margin.
+
+Padding is the right alternate to hight and width.
+
+Every element has the spacing outside which is margin and spacing inside which is padding.
+
+## vertical-align
+
+Look at the below image
+
+![Alt text](image-2.png)
+
+Buttons borders are litte dealighned as we added paddding to JOIN button but the `text is on the same line for all the 3 buttons` this is because the web pages are text aligned.
+
+To override this behaviour and want to have everything on top we need a css property called `vertical-align: top`
+
+![Alt text](image-1.png)
