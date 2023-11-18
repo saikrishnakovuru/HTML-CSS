@@ -1,0 +1,123 @@
+.subscribe-button {
+  /* changes the backgound color of teh whole button */
+  background-color: rgb(200, 0, 0);
+  /* color decides the color of the text */
+  color: white;
+  border: none;
+  /* height: 35px;
+    width: 100px; */
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  border-radius: 2px;
+  /* Setting cursor to pointer shows us the hand like image pointing the button or what ever it is on hovering */
+  cursor: pointer;
+  margin-right: 8px;
+
+  /* we added opacity to our subscribe button and that happens happens real quick.
+      to make them real smooth we add transition and it accepts 2 things, one is what we need to 
+      make smooth and the another one is how long the smooth transition should happen.
+
+      To make the smooth transition we use transition property.
+    */
+  transition: opacity 0.15s;
+
+  vertical-align: top;
+}
+
+/* 
+    Now lets look into the hovers, hover is called pseudo class, hover helps us in changing
+    the styles on button hover.
+
+    hover pseudo class activates when we hover on the button.
+  */
+.subscribe-button:hover {
+  /* opacity is used to fadeout the component, opacity ranges from 0 to 1*/
+  opacity: 0.8;
+}
+
+/* 
+    Similar to hover we have active pseudo class that activates on clicking the button.
+  */
+.subscribe-button:active {
+  opacity: 0.5;
+}
+
+/* ====================================   JOIN BUTTON   =============================================================================== */
+
+.join-button {
+  background-color: white;
+  border-color: rgb(61, 128, 209);
+  /*
+     With out the border style we will notice a weird border color,
+     though we set a color to the border top and left sides of the border gets decorted with the color we set.
+     However, right and botton gets different color. To overcome this  border-stype helps us.
+    */
+  border-style: solid;
+
+  /*
+     Border looks thicker without the border width.
+    */
+  border-width: 1px;
+  border-radius: 2px;
+  color: rgb(61, 128, 209);
+  /* height: 35px;
+    width: 55px; */
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  cursor: pointer;
+
+  transition: background-color 0.15s, color 0.15s;
+
+  vertical-align: top;
+}
+
+.join-button:hover {
+  color: white;
+  background-color: rgb(61, 128, 209);
+}
+
+.join-button:active {
+  opacity: 0.5;
+  color: white;
+  background-color: rgb(61, 128, 209);
+}
+
+/* ===================================   TWEET BUTTON  ============================================================================= */
+
+.tweet-button {
+  margin-left: 8px;
+  /* height: 35px;
+    width: 70px; */
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  background-color: rgb(61, 128, 209);
+  border: none;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+
+  transition: box-shadow 0.15s;
+
+  vertical-align: top;
+}
+
+.tweet-button:hover {
+  /* box-shadow helps us to add the shadow to the object
+      Tt has 4 values, 1-> horizontal position, 2->Vertical position, 3->Blur, 4-> color.
+      
+      As part of color we use rgba where a is the opacity.
+    */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.tweet-button:active {
+  opacity: 0.5;
+}

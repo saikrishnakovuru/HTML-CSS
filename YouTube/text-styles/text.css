@@ -1,0 +1,55 @@
+body {
+  background-color: bisque;
+}
+
+/* we declared the common styles of paragraphs here.*/
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.video-title {
+  font-weight: bold;
+  font-size: 18px;
+  width: 280px;
+  /* line-height gives the spacing between ines */
+  line-height: 24px;
+  /* paragraph in HTML by default comes up with a default border. */
+
+  margin-bottom: 5px;
+}
+
+.video-stats {
+  font-size: 14px;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.video-author {
+  font-size: 14px;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.video-description {
+  font-size: 14px;
+  color: grey;
+  width: 280px;
+  line-height: 20px;
+  margin-bottom: 100px;
+}
+
+.apple-note {
+  font-size: 14px;
+  text-align: center;
+  background-color: rgb(234, 69, 69);
+  color: white;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.apple-shop-now-text:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
