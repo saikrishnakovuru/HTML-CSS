@@ -9,6 +9,10 @@ Gives the spacing between the lines.
 
 The special characters like dot and tick are called entities, we can google for `html entity dot` for teh dot we have a hexadecimal code `&#183;`.
 
+## text-align
+
+Moves the paragraphs to the center.
+
 ## default margins in paragraphs
 
 Paragraphs in HTML by default get some margin, which resulting in teh extra spacing while having 2 paragraphs one by one. We can manually override them giving our preferred margin like `margin-bottom: 5px`.
