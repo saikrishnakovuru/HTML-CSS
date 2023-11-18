@@ -1,5 +1,8 @@
 Few styles for eye wash!
 
+In this file we are creating the buttons to look like in the below website
+https://supersimple.dev/exercises/buttons
+
 `color` --> Decides color to the text inside the button.
 
 `border-radius` --> curved border.
