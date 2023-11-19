@@ -1,0 +1,57 @@
+.outline {
+    padding: 20px;
+  display: flex;
+  align-items: center;
+  background-color: bisque;
+}
+
+.cat-image {
+  /* display: inline-block; */
+  /* vertical-align: top; */
+  margin-right: 10px;
+  margin-left: 0px;
+}
+
+.image {
+  border-radius: 50px;
+  width: 40px;
+}
+
+.animal-details {
+  margin-right: 70px;
+  display: inline-block;
+}
+
+.name,
+.type,
+.popularity {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.type,
+.popularity {
+  color: grey;
+}
+
+.button {
+  display: inline-block;
+}
+
+.follow-button {
+  background-color: green;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.animal-1 {
+    display: inline-block;
+    margin-bottom: 10px;
+}
