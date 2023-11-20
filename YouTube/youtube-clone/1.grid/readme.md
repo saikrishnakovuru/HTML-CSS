@@ -1,5 +1,10 @@
 Grid is basically devided into rows and columns, imagine columns and rows similar to Swing assuming X and Y axis.
 
+### Grid aligns vertically.
+![Alt text](image-2.png)
+
+I wantedly added an extra para in div2 however div1 and div2 are vertically aligned.
+
 To create Grid we need two properties
 
 ```java
