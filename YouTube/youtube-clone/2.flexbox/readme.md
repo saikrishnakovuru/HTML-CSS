@@ -47,6 +47,7 @@ let's add an another style `align-items: stretch`, and stretch is the default st
 
 similarly end moves the components to the bottom.
 
+```java
 <div style="
         margin-top: 30px;
         height: 70px;
@@ -78,3 +79,4 @@ similarly end moves the components to the bottom.
             100px
         </div>
     </div>
+```
